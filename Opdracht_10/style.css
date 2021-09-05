@@ -1,0 +1,82 @@
+h1 {
+    color: gold;
+    font-size: x-large;
+  }
+
+  .center-title {
+    margin: 0 auto;
+    width: 500px
+  }
+
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .parent {
+    display: grid;
+    grid-template-columns: 275px 275px;
+    grid-template-rows: 75px 830px 60px;
+    height: 1000px;
+    grid-template-areas:
+      "header header"
+      "main aside"
+      "footer footer";
+  }
+
+  main {
+    padding: 90px;
+    margin-left: 50;
+  }
+
+  aside {
+    padding: 90px;
+  }
+
+  footer {
+    padding: 10px;
+  }
+  
+  header,
+  main,
+  aside,
+  footer {
+    margin: 10px;
+  }
+  
+  header {
+    background-color: red;
+    grid-area: header;
+  }
+  main {
+    background-color: lightgreen;
+    grid-area: main;
+    color:maroon;
+  }
+  aside {
+    background-color:lightgreen;
+    grid-area: aside;
+    color:maroon
+  }
+  footer {
+    background-color: limegreen;
+    grid-area: footer;
+  }
+  
+  @media (min-width: 1024px) {
+    .parent {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 75px 900px 60px;
+    height: 1000px;
+    grid-template-areas:
+      "header header"
+      "main aside"
+      "footer footer";
+
+    MJ1.jpg {
+        padding: 40px;
+      }
+    
+      h1 {
+        color: black;
+        font-size: xx-large;
+      }

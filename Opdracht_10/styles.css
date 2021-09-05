@@ -1,0 +1,27 @@
+h1 {
+  color: black;
+}
+
+.center-title {
+  margin: 0 auto;
+  width: 500px;
+}
+
+h2 {
+  margin-left: 140px;
+}
+
+div {
+  margin-left: 150px;
+  line-height: 20px;
+}
+
+img {
+  margin-left: 140px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
